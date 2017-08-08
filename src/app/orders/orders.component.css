@@ -1,0 +1,66 @@
+md-card {
+    opacity: 0.9;
+    width: fit-content;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#seeWhoJoined {
+    cursor: pointer;  
+}
+
+#seeWhoJoined:hover {
+    color: #4B5CB3;
+}
+
+.emptyListImage {
+    width: fit-content;
+    height: fit-content;
+    font-size: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#emptyList {
+    /*background-color: whitesmoke; 
+    opacity: 0.8;*/
+    color: #607D8B;
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    margin-right: 100px;;
+    margin-left: 100px;;
+}
+
+md-card-title {
+    font-family: 'Cantarell', sans-serif;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+md-card-content {
+    height: fit-content;
+    width: fit-content;
+}
+
+md-card-actions {
+    height: fit-content;
+    width: fit-content;
+}
+
+.order-text {
+    font-size: 15px;
+}
+
+#afterOrderSent:hover {
+    color: #3F51B5;
+    font-weight: bold;
+}
+
+.order-chip {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}

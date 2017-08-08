@@ -1,0 +1,18 @@
+<span class="cancelIcon"><md-icon (click)="dialogRef.close()">close</md-icon></span>
+<h1 md-dialog-title>New Order</h1>
+
+<md-dialog-content>
+    <p><md-input-container>
+        <input mdInput #restName placeholder="Restaurant Name">
+    </md-input-container></p>
+    <p><md-input-container>
+        <input mdInput #hourOfOrder placeholder="Hour Of Order">
+    </md-input-container></p>
+    <p><md-input-container>
+        <input mdInput #name placeholder="Your Name">
+    </md-input-container></p>
+</md-dialog-content>
+
+<md-dialog-actions>
+    <button md-raised-button color="primary" (click)="newOrder(restName.value, hourOfOrder.value, name.value); dialogRef.close()">Add Order</button>
+</md-dialog-actions>

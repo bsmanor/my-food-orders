@@ -1,0 +1,14 @@
+<span class="cancelIcon"><md-icon (click)="dialogRef.close()">close</md-icon></span>
+<h1 md-dialog-title>Join Order</h1>
+
+<md-dialog-content>
+  <md-input-container>
+    <input mdInput type="text" #joinName placeholder="Your Name">
+  </md-input-container>
+</md-dialog-content>
+
+<md-dialog-actions>
+  <button style="margin-right:15px" md-raised-button (click)="dialogRef.close('cancel')">CANCEL</button>
+  <button md-raised-button color="primary" (click)="dialogRef.close(joinName.value)">JOIN</button>
+</md-dialog-actions>
+

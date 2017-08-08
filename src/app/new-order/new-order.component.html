@@ -1,0 +1,7 @@
+<md-grid-list *ngIf="web==true"  cols="1" rowHeight="200px">
+    <md-grid-tile>
+        <button id="newOrderButton" class="transparent" (click)="newOrderDialog()">Add Order</button>
+    </md-grid-tile>
+</md-grid-list>
+
+<button class="scale" style="z-index:11" md-fab id="newOrderFab" (click)="newOrderDialog()"><md-icon>add</md-icon></button>

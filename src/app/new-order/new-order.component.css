@@ -1,0 +1,23 @@
+#newOrderButton {
+    height: 60px; 
+    width: 240px; 
+    font-size: 25px;
+    color: #0076FF;
+    border: solid 2px #0076FF;
+    margin-top: 50px;
+    transition: background-color 200ms ease;
+    transition: color 200ms ease;
+}
+
+#newOrderButton:hover {
+    color: #ffffff;
+    background-color: #0076FF;
+    transition:  background-color 200ms ease;
+    transition: color 200ms ease;
+}
+
+#newOrderFab {
+    position: fixed;
+    right: 5%;
+    bottom: 8%;
+}
