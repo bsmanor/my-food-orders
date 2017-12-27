@@ -1,7 +1,8 @@
 export const firebaseConfig = {
-  apiKey: "AIzaSyDO2NVTTkXWEWyrCYVvjk9-gLtFm6_lGqI",
-  authDomain: "tunefoodorders.firebaseapp.com",
-  databaseURL: "https://tunefoodorders.firebaseio.com",
-  storageBucket: "tunefoodorders.appspot.com",
-  messagingSenderId: "296327375110"
+    apiKey: "AIzaSyBKWKCoz2M9Q-CMlqYAaic5dGJGRYZZ-bc",
+    authDomain: "my-food-orders.firebaseapp.com",
+    databaseURL: "https://my-food-orders.firebaseio.com",
+    projectId: "my-food-orders",
+    storageBucket: "",
+    messagingSenderId: "573571814991"
 };
